@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Poppins:wght@400;500&display=swap');
+
+nav{
+    background-color:antiquewhite;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.container ul li {
+    display: inline;
+    list-style: none;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: large;
+    padding-right: 15px;
+}
+#logo img{
+    height: 50px;
+}
+.logo-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #1A365D; /* Deep Navy Blue */
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+.Body-container{
+     background-image: url('image\ copy\ 2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 50vh;
+      margin: 0;
+      padding: 0;
+      border: 1px solid wheat;
+}
+.p-h1-container{
+ padding-left: 80px;
+ font-size: large;
+ padding-top: 40px;
+ color: rgb(17, 12, 58);
+}
+.cute-button{display: block;}
+.cute-button button{
+    background-color: aqua;
+    color: white;
+    border-radius: 15px ;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px;
+    border-color: aqua;
+}
+.laptop-img{
+    width: 1px;
+}
